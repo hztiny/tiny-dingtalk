@@ -1,0 +1,27 @@
+{
+    "name": "hztiny/tiny-dingtalk",
+    "description": "",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wanglf63",
+            "email": "906259933@qq.com"
+        }
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.3|^8.0",
+        "guzzlehttp/guzzle": "^7.0.1",
+        "hztiny/tiny-core": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hztiny\\TinyDingtalk\\": "src/"
+        }
+    }
+}
